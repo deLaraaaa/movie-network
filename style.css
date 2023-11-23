@@ -1,0 +1,88 @@
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+div{
+    border: 1px solid red;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container-main{
+    overflow: hidden;
+    position: relative;
+    height: 60vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        margin: 0px;
+        width: 100vw;
+    }
+
+    .bg{
+        overflow: hidden;
+        object-fit: cover;
+        height: 100vh;
+    }
+
+    .container-main{
+        height: 70vh;
+        width: 95vw;
+        margin: 0px;
+    }
+}
+
+.bg{
+    position: absolute;
+    object-fit: fill;
+    width: 100vw;
+    opacity: 0.1;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.main img{
+    transition: all .3s ease-in-out;
+    border-radius: 15px;
+}
+
+h1{
+    width: 250px;
+}
+
+.poster{
+    justify-content: end;
+}
+
+.movies{
+    margin-left: 0px;
+}
+
+.banner img{
+    transition: all .3s ease-in-out;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.banner img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
