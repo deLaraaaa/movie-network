@@ -19,6 +19,10 @@ header{
     justify-content: center;
 }
 
+body{
+    height: 100vh;
+}
+
 .container-main{
     overflow: hidden;
     position: relative;
@@ -84,4 +88,39 @@ h1{
 .banner img:hover{
     transform: scale(1.2);
     cursor: pointer;
+}
+
+.bg1{
+    position: absolute;
+    height: 80vh;
+    opacity: 0.2;
+}
+
+.context{
+    margin-top: 5vh;
+    display: flex;
+}
+
+.text{
+    width: 35vw;
+    text-align: justify;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.ratings{
+    padding-left: 15vw;
+}
+
+.product-rating{
+    font-size: 50px;
+}
+
+.stars i{
+    font-size: 18px;
+    color: #28a745;
+}
+
+.rating-text{
+    margin-top: 10px;
 }
